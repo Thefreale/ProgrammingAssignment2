@@ -43,3 +43,11 @@ cacheSolve <- function(x, ...) {
   x$setinverse(inv)
   inv
 }
+###
+### Tested Using m1<- matrix(c(1/2, -1/4, -1, 3/4), nrow = 2, ncol = 2)
+###
+### Inverse should be 
+###       [,1] [,2]
+### [1,]    6    8
+### [2,]    2    4
+
